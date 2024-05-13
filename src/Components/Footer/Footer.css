@@ -1,0 +1,54 @@
+footer p {
+  margin: 0px 0px;
+}
+
+footer {
+  background-color: #5c5656;
+  padding: 0.5rem 5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-top {
+  padding-top: 3rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: large;
+  font-family: 'Teko', sans-serif;
+  align-items: center;
+  color: #24292f;
+  font-weight: 300;
+}
+
+.footer-top h2 {
+  margin: 0px;
+  border-bottom: solid #24292f;
+}
+
+.footer-bottom {
+  margin-top: 0.5rem;
+  gap: 5rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #24292f;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.social-logos {
+  align-self: start;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+img {
+  height: 2rem;
+}

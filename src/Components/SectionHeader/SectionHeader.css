@@ -1,0 +1,38 @@
+.header-wrapper {
+  text-align: center; /* Centers the inline-block .section-header */
+}
+
+.section-header {
+  display: inline-block; /* Makes the element only as wide as its content */
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: xx-large;
+  font-family: 'Teko', sans-serif;
+  color: #b3321b;
+  position: relative; /* Needed for absolute positioning of pseudo-elements */
+  margin: 0 auto; /* Center the inline-block horizontally */
+  padding: 5px 20px; /* Optional: adds some padding around the text */
+}
+
+.section-header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-top: 3px solid #b3321b; /* Top border, adjust color and size as needed */
+  border-right: 3px solid #b3321b; /* Right border, adjust color and size as needed */
+  width: 20px; /* Width of the border effect */
+  height: 20px; /* Height of the border effect */
+}
+
+.section-header::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-bottom: 3px solid #b3321b; /* Bottom border, adjust color and size as needed */
+  border-left: 3px solid #b3321b; /* Left border, adjust color and size as needed */
+  width: 20px; /* Width of the border effect */
+  height: 20px; /* Height of the border effect */
+}

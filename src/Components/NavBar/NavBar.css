@@ -1,0 +1,49 @@
+.nav-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: opacity 0.3s ease-in-out;
+  opacity: 0; /* Start hidden */
+  z-index: 1000; /* Ensure it's above other content */
+
+  display: flex;
+  justify-content: space-between;
+  background-color: #d3c7c7;
+  padding: 0.5rem 3rem;
+}
+
+.nav-left {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-left img {
+  align-self: center;
+}
+
+.nav-right {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-text {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: large;
+  font-family: 'Teko', sans-serif;
+  font-optical-sizing: auto;
+  color: #b3321b;
+}
+
+.nav-button:hover {
+  color: #c25f4d;
+  border-bottom: solid #b3321b;
+}
+
+.nav-button {
+}
+
+#tim-pic {
+  height: 3rem;
+  border-radius: 50px;
+}
