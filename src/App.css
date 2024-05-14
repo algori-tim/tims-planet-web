@@ -41,7 +41,7 @@ canvas {
 }
 
 article {
-  background: linear-gradient(180deg, #a49c9c 0%, #5c5656 50%);
+  background: linear-gradient(180deg, #a49c9c 0%, #312e2e 50%);
   display: flex;
   flex-direction: column;
   gap: 2rem;

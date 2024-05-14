@@ -6,6 +6,11 @@ import Footer from './Components/Footer/Footer'
 import Planet from './Components/Planet/Planet'
 import SectionHeader from './Components/SectionHeader/SectionHeader'
 
+// to do
+// add experience tiles to about me section
+// create cards for projects to populate projects section
+// create contact me form or make separate non form contact me section.
+
 const App = () => {
   return (
     <>
