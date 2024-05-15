@@ -1,0 +1,19 @@
+.loading {
+  margin-top: 2rem;
+  text-align: center;
+  color: #301d06;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.projects-container {
+  /* max-width: 95rem; */
+  justify-content: space-evenly;
+  flex-grow: 0;
+  overflow-x: scroll;
+  margin-top: 1rem;
+  display: flex;
+  gap: 2rem;
+  padding: 1rem 0px;
+}

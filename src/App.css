@@ -44,6 +44,7 @@ article {
   background: linear-gradient(180deg, #a49c9c 0%, #312e2e 50%);
   display: flex;
   flex-direction: column;
+  align-items: stretch;
   gap: 2rem;
 }
 
@@ -51,7 +52,12 @@ h2 {
   margin-top: 0px;
 }
 
+.content-wrapper {
+}
+
 .section {
+  /* max-width: 95rem; */
+  flex-grow: 1;
   position: relative;
   color: #301d06;
   font-family: 'IBM Plex Mono', monospace;
@@ -61,8 +67,4 @@ h2 {
   margin: 0px 2rem;
   padding: 2rem;
   border-radius: 50px;
-}
-
-.section-one {
-  /* background-color: gray; */
 }
