@@ -1,0 +1,68 @@
+dialog {
+  z-index: 1000; /* Ensure it is on top of other elements */
+  color: #301d06;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 500;
+  font-style: normal;
+  background-color: #d3c7c7;
+  padding: 2rem 2rem;
+  border-radius: 50px;
+  border: none;
+}
+
+/* Background overlay */
+.dialog-overlay {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  align-items: center;
+  justify-content: center;
+  z-index: 999; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent dark grey background */
+}
+
+.dialog-button-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.copy-button {
+  display: flex;
+  align-items: center;
+}
+
+#close-contact {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: large;
+  font-family: 'Teko', sans-serif;
+  font-optical-sizing: auto;
+  color: #b3321b;
+  display: flex;
+  align-items: center;
+}
+
+dialog button img {
+  height: 1.5rem;
+}
+
+#close-contact:hover {
+  color: #c25f4d;
+}
+
+ul {
+  margin-bottom: 2rem;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
