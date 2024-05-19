@@ -11,10 +11,15 @@ const Footer = () => {
         <div className='footer-bottom'>
           <p>Web devloper, technology enthusiast, problem solver, and champion for creative expression.</p>
           <div className='social-logos'>
-            <a className='social-logo' href='https://www.linkedin.com/in/timabbottjohnson'>
+            <a
+              className='social-logo'
+              href='https://www.linkedin.com/in/timabbottjohnson'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
               <img src='linkedin.svg' alt='linkedin icon' />
             </a>
-            <a className='social-logo' href='https://github.com/algori-tim'>
+            <a className='social-logo' href='https://github.com/algori-tim' target='_blank' rel='noopener noreferrer'>
               <img src='github-mark.svg' alt='github icon' />
             </a>
           </div>
