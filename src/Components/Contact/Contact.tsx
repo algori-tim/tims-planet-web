@@ -18,11 +18,7 @@ const Contact = () => {
     <div id='dialog-overlay' className='dialog-overlay'>
       <dialog id='contact-dialog'>
         <SectionHeader content='Want to Connect?' id='want-to-connect' />
-        <p>
-          To be fair, I've never been a fan of those <b>"contact me"</b> forms and if I want to get a hold of someone,
-          I'd usually prefer a more straight forward method. So here are some simple forms of contact, if you'd like to
-          chat.
-        </p>
+        <p>If you'd like to connect, feel free to shoot me an email or send me a message on LinkedIn.</p>
         <ul>
           <li>
             <img src='mail.svg' alt='mail icon' />
