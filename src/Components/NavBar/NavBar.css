@@ -47,3 +47,38 @@
   height: 3rem;
   border-radius: 50px;
 }
+
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+
+.hamburger img {
+  height: 3rem;
+}
+
+.mobile-menu {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  background-color: #d3c7c7;
+  position: absolute;
+  top: 3.5rem; /* Adjust based on nav-bar height */
+  right: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 600px) {
+  .nav-right {
+    display: none;
+  }
+  .hamburger {
+    display: flex;
+  }
+}

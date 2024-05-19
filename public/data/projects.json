@@ -1,11 +1,20 @@
 [
   {
+    "id": "abc123",
     "name": "timsplanet.com",
     "image": "/timsplanet-thumb.png",
     "blurb": "Yeah! This website right here! I'll be honest, I'm still collecting cool projects to show off, so in the meantime... Here you go!",
     "tools": ["react", "typescript", "css3", "html5"]
   },
   {
+    "id": "abc222",
+    "name": "some other project!",
+    "image": "/project.webp",
+    "blurb": "yadda yadda yadda yadda yadda yadda yadda yadda yadda yadda yadda yadda yadda yadda yadda yadda yadda yadda yadda yadda yadda yadda...",
+    "tools": ["javascript", "css3", "html5"]
+  },
+  {
+    "id": "abc333",
     "name": "some other project!",
     "image": "/project.webp",
     "blurb": "yadda yadda yadda yadda yadda yadda yadda yadda yadda yadda yadda yadda yadda yadda yadda yadda yadda yadda yadda yadda yadda yadda...",

@@ -24,16 +24,12 @@ const App = () => {
           <div className='buffer'></div>
           <article>
             <section>
-              <div className='content-wrapper'>
-                <SectionHeader id='hello-world' content='.about_me' />
-                <AboutMe />
-              </div>
+              <SectionHeader id='hello-world' content='.about_me' />
+              <AboutMe />
             </section>
             <section>
-              <div className='content-wrapper'>
-                <SectionHeader id='projects' content='.projects' />
-                <Projects />
-              </div>
+              <SectionHeader id='projects' content='.projects' />
+              <Projects />
             </section>
           </article>
           <Footer />

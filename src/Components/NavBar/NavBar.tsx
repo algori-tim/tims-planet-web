@@ -40,6 +40,18 @@ const NavBar = () => {
     })
   }
 
+  const openMenu = (open: boolean) => {
+    const mobileMenu = document.querySelector('.mobile-menu') as HTMLElement
+    mobileMenu.style.display = open ? 'flex' : 'none'
+  }
+
+  useEffect(() => {
+    const mobileMenu = document.querySelector('.mobile-menu') as HTMLElement
+    mobileMenu.addEventListener('click', () => {
+      openMenu(false)
+    })
+  })
+
   return (
     <>
       <Contact />
@@ -49,6 +61,23 @@ const NavBar = () => {
           <p className='nav-text'>Tim Johnson</p>
         </div>
         <div className='nav-right'>
+          <button className='nav-button nav-text' onClick={handleClickHome}>
+            home
+          </button>
+          <button className='nav-button nav-text' onClick={() => scrollTo('hello-world')}>
+            about me
+          </button>
+          <button className='nav-button nav-text' onClick={() => scrollTo('projects')}>
+            projects
+          </button>
+          <button className='nav-button nav-text' onClick={handleOpenContact}>
+            contact
+          </button>
+        </div>
+        <div className='hamburger' onClick={() => openMenu(true)}>
+          <img src='menu.svg' alt='nav menu' />
+        </div>
+        <div className='mobile-menu'>
           <button className='nav-button nav-text' onClick={handleClickHome}>
             home
           </button>

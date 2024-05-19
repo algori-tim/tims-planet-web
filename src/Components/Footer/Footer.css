@@ -12,7 +12,7 @@ footer {
 
 .footer-top {
   border-top: #b3321b solid;
-  margin-top: 2rem;
+  margin-top: 4rem;
   padding-top: 2rem;
   width: 100%;
   display: flex;
@@ -55,4 +55,10 @@ footer {
 
 img {
   height: 2rem;
+}
+
+@media (max-width: 600px) {
+  footer {
+    padding: 0.5rem 2rem;
+  }
 }

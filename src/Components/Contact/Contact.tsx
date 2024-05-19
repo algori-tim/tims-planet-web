@@ -34,7 +34,7 @@ const Contact = () => {
           <li>
             <img src='linkedin.svg' alt='' />
             <a href='https://www.linkedin.com/in/timabbottjohnson' target='_blank' rel='noopener noreferrer'>
-              https://www.linkedin.com/in/timabbottjohnson
+              /timabbottjohnson
             </a>
           </li>
         </ul>

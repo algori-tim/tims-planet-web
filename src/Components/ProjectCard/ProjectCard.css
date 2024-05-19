@@ -24,3 +24,19 @@
   display: flex;
   gap: 1rem;
 }
+
+@media (max-width: 500px) {
+  .project-card {
+    width: 16rem;
+  }
+  .project-card-img {
+    height: 13rem;
+  }
+
+  .project-card h2 {
+    font-size: large;
+  }
+  .project-card p {
+    font-size: small;
+  }
+}

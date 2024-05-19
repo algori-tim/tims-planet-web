@@ -30,22 +30,22 @@ canvas {
 }
 
 #rocket-img {
-  height: 50rem;
+  height: 48rem;
   top: -22rem;
   position: absolute;
   left: 80%;
 }
 
 .buffer {
-  height: 12rem;
+  height: 15rem;
 }
 
 article {
   background: linear-gradient(180deg, #a49c9c 0%, #312e2e 50%);
   display: flex;
   flex-direction: column;
-  align-items: stretch;
-  gap: 2rem;
+  align-items: center;
+  gap: 4rem;
 }
 
 h2 {
@@ -53,8 +53,10 @@ h2 {
 }
 
 section {
-  /* max-width: 95rem; */
+  max-width: 95rem;
+  width: 90%;
   flex-grow: 1;
+  flex-shrink: 1;
   position: relative;
   color: #301d06;
   font-family: 'IBM Plex Mono', monospace;
