@@ -1,6 +1,6 @@
 import Contact from '../Contact/Contact'
 import './NavBar.css'
-import { useEffect, useState } from 'react'
+import { useEffect } from 'react'
 
 const NavBar = () => {
   // const [openContactInfo, setOpenContactInfo] = useState<boolean>(false)
