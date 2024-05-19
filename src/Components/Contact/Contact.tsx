@@ -11,7 +11,7 @@ const Contact = () => {
 
   const handleCopyEmail = () => {
     navigator.clipboard.writeText('tim@timsplanet.com')
-    alert('tims@timsplanet.com copied to clipoard!')
+    alert('tim@timsplanet.com copied to clipoard!')
   }
 
   return (
