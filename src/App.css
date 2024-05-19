@@ -1,11 +1,12 @@
 .ground {
   z-index: 2;
   background: rgba(164, 156, 156, 1);
+  position: relative;
 }
 
 canvas {
   position: relative;
-  z-index: -2;
+  z-index: 0;
 }
 
 .lower {
@@ -14,25 +15,28 @@ canvas {
   overflow-x: clip;
 }
 
+#mountains-left,
+#space-man-img,
+#rocket-img {
+  position: absolute;
+  z-index: 1;
+}
+
 #mountains-left {
   height: 20rem;
   top: -17rem;
-  position: absolute;
   left: -2%;
-  z-index: -1;
 }
 
 #space-man-img {
   height: 25rem;
   top: -7rem;
-  position: absolute;
   left: 40%;
 }
 
 #rocket-img {
   height: 48rem;
   top: -22rem;
-  position: absolute;
   left: 80%;
 }
 
@@ -53,6 +57,7 @@ h2 {
 }
 
 section {
+  z-index: 2;
   max-width: 95rem;
   width: 90%;
   flex-grow: 1;

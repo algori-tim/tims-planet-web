@@ -17,8 +17,8 @@ const App = () => {
       </Canvas>
       <Planet />
       <div className='lower'>
+        <img id='mountains-left' src='mountains-left.svg' alt='mountains in the distance' />
         <div className='ground'>
-          <img id='mountains-left' src='mountains-left.svg' alt='mountains in the distance' />
           <img id='space-man-img' src='space-man.svg' alt='space man' />
           <img id='rocket-img' src='rocket.svg' alt='rocket ship' />
           <div className='buffer'></div>
