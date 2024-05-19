@@ -22,7 +22,7 @@
 .planet .background {
   animation: translateBackground 120s infinite linear;
   background-color: #888;
-  background-image: url('./planet.jpg');
+  background-image: url('/planet.jpg');
   background-size: auto 100%;
   background-repeat: repeat-x;
   width: 100%;
