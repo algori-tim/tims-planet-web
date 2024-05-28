@@ -3,20 +3,31 @@
   height: 30vmin;
   position: absolute;
   border-radius: 50%;
-  /*overflow:hidden;*/
-  box-shadow: 0 0 20vmin -5vmin rgba(74, 154, 168, 0.596), -5vmin -5vmin 15vmin -5vmin #fff4;
   left: 40%;
   top: 50%;
   margin: -25vmin;
+  overflow: visible; /* Ensure the overflow is visible */
+}
+
+.planet .glow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300%;
+  height: 300%;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  background: radial-gradient(circle, rgba(74, 154, 168, 0.18) 10%, rgba(74, 154, 168, 0) 50%);
+  z-index: -1; /* Ensure the glow is behind the planet */
 }
 .planet .mask {
   width: calc(30vmin + 1px);
   height: calc(30vmin + 1px);
   position: absolute;
-  box-shadow: inset -5vmin -5vmin 10vmin #00000088, inset -5vmin -5vmin 10vmin #000000cc,
-    inset 5vmin 5vmin 10vmin -5vmin #fffa, inset 5vmin 5vmin 10vmin -5vmin #ffffff55;
+  box-shadow: inset -50px -50px 100px #00000088, inset -50px -50px 100px #000000cc, inset 50px 50px 100px -50px #fffa,
+    inset 50px 50px 100px -50px #ffffff55;
   border-radius: 50%;
-  xmix-blend-mode: luminosity;
+  mix-blend-mode: luminosity;
 }
 
 .planet .background {
@@ -31,27 +42,7 @@
   border-radius: 50%;
   filter: hue-rotate(150deg);
 }
-.planet .clouds {
-  /*background-image: url(http://artem.anmedio.ru/dev/planet/clouds.png);*/
-  /*background-image: url('https://www.vippng.com/png/full/5-58314_clouds-texture-png.png');*/
-  /* background-image: url('https://www.mapsof.net/uploads/static-maps/Earth-Clouds.jpg');
-  background-size: auto 100%;
-  background-repeat: repeat-x;
-  background-position-y: 50%;
-  mix-blend-mode: screen;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  border-radius: 50%;
-  animation: translateClouds 60s infinite linear;
-  opacity: 0.85; */
-}
-.planet .clouds.c2 {
-  /* background-image: url('https://www.solarsystemscope.com/textures/download/2k_earth_clouds.jpg');
-  animation: translateClouds 72s infinite linear;
-  background-size: auto 100%;
-  opacity: 0.6; */
-}
+
 .planet .wrap {
   width: 100%;
   height: 100%;
