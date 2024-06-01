@@ -3,8 +3,6 @@ import './NavBar.css'
 import { useEffect } from 'react'
 
 const NavBar = () => {
-  // const [openContactInfo, setOpenContactInfo] = useState<boolean>(false)
-
   useEffect(() => {
     window.addEventListener('scroll', () => {
       var navbar = document.getElementById('nav-bar') as HTMLElement
@@ -23,6 +21,7 @@ const NavBar = () => {
     const dialog = document.getElementById('contact-dialog') as HTMLDialogElement
     dialog.showModal()
   }
+
   const handleClickHome = () => {
     window.scrollTo({
       top: 0,

@@ -7,6 +7,7 @@ import Planet from './Components/Planet/Planet'
 import SectionHeader from './Components/SectionHeader/SectionHeader'
 import Projects from './Components/Projects/Projects'
 import AboutMe from './Components/AboutMe/Aboutme'
+import ScrollIcon from './Components/ScrollIcon/ScrollIcon'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Stars radius={100} depth={50} count={1000} factor={4} saturation={0} fade speed={1} />
       </Canvas>
       <Planet />
+      <ScrollIcon />
       <div className='lower'>
         <img id='mountains-left' src='mountains-left.svg' alt='mountains in the distance' />
         <div className='ground'>
