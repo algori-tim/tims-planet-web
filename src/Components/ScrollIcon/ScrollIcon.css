@@ -54,14 +54,14 @@
 
 @keyframes move {
   25% {
-    opacity: 0.4;
+    opacity: 0.5;
   }
   33% {
-    opacity: 0.4;
+    opacity: 0.5;
     transform: translateY(30px);
   }
   67% {
-    opacity: 0.4;
+    opacity: 0.5;
     transform: translateY(40px);
   }
   100% {
@@ -79,12 +79,29 @@
   color: #fff;
   text-transform: uppercase;
   white-space: nowrap;
-  opacity: 0.15;
+  opacity: 0.25;
   animation: pulse 2s linear alternate infinite;
 }
 
 @keyframes pulse {
   to {
     opacity: 0.85;
+  }
+}
+
+@media (max-width: 1200px) {
+  #scrollWrapper {
+    left: 2.5rem;
+    bottom: 5rem;
+  }
+
+  .text {
+    color: #b3321b;
+    opacity: 0.5;
+  }
+
+  .chevron:before,
+  .chevron:after {
+    background: #b3321b;
   }
 }
