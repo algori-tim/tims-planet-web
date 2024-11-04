@@ -20,6 +20,14 @@
   height: 18rem;
 }
 
+.bottom-section {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .tools-container {
   display: flex;
   gap: 1rem;

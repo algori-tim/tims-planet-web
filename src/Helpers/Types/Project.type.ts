@@ -3,5 +3,6 @@ export type Project = {
   name: string
   image: string
   blurb: string
+  url: string
   tools: string[]
 }

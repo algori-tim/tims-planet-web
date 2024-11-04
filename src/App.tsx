@@ -14,12 +14,24 @@ const App = () => {
     <>
       <NavBar />
       <Canvas>
-        <Stars radius={100} depth={50} count={1000} factor={4} saturation={0} fade speed={1} />
+        <Stars
+          radius={100}
+          depth={50}
+          count={1000}
+          factor={4}
+          saturation={0}
+          fade
+          speed={1}
+        />
       </Canvas>
       <Planet />
       <ScrollIcon />
       <div className='lower'>
-        <img id='mountains-left' src='mountains-left.svg' alt='mountains in the distance' />
+        <img
+          id='mountains-left'
+          src='mountains-left.svg'
+          alt='mountains in the distance'
+        />
         <div className='ground'>
           <img id='space-man-img' src='space-man.svg' alt='space man' />
           <img id='rocket-img' src='rocket.svg' alt='rocket ship' />
@@ -31,6 +43,10 @@ const App = () => {
             </section>
             <section>
               <SectionHeader id='projects' content='.projects' />
+              <p className='projects-subheader'>
+                Click the image on any of the project cards below to check them
+                out. The site will open in a new tab.
+              </p>
               <Projects />
             </section>
           </article>

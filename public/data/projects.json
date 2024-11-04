@@ -1,9 +1,18 @@
 [
   {
     "id": "1",
-    "name": "timsplanet.com",
-    "image": "/timsplanet-thumb.png",
-    "blurb": "Yeah! This website right here! I'll be honest, I'm still collecting cool projects to show off, so in the meantime... Here you go!",
-    "tools": ["react", "typescript", "css3", "html5"]
+    "name": "Tim's Planet 3D",
+    "image": "data/thumbnails/timsplanet_3d.png",
+    "blurb": "This was my first expirement using React Thee Fiber to create a fully immersive 3d experience. The goal was to create a portfolio website where people could explore a 3d world and get to know more about me by interacting with landmarks.",
+    "url": "https://3d.timsplanet.com",
+    "tools": ["react", "typescript", "css3", "html5", "threejs"]
+  },
+  {
+    "id": "2",
+    "name": "Ghouls Gambit!",
+    "image": "data/thumbnails/ghouls_gambit.png",
+    "blurb": "My submission for the Halloween 2024 threejs-journey.com challange! This is a 3d shooter game where your goal is to protect the local townsfolk from a horde of ghosts, skeletons, and zombies. Check it out!",
+    "url": "https://ghouls-gambit.timsplanet.com",
+    "tools": ["react", "typescript", "css3", "html5", "threejs"]
   }
 ]
